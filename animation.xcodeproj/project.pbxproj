@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181396B92171D07B00C66479 /* ProgessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181396B82171D07B00C66479 /* ProgessView.swift */; };
+		181396BB2171D15000C66479 /* ProgessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181396BA2171D15000C66479 /* ProgessViewController.swift */; };
 		187C527F20A8252900E07066 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C527E20A8252900E07066 /* AppDelegate.swift */; };
 		187C528120A8252900E07066 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C528020A8252900E07066 /* ViewController.swift */; };
 		187C528420A8252900E07066 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187C528220A8252900E07066 /* Main.storyboard */; };
@@ -14,6 +16,19 @@
 		187C528920A8252A00E07066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187C528720A8252A00E07066 /* LaunchScreen.storyboard */; };
 		187C529420A8252A00E07066 /* animationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C529320A8252A00E07066 /* animationTests.swift */; };
 		187C529F20A8252A00E07066 /* animationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C529E20A8252A00E07066 /* animationUITests.swift */; };
+		187C52AD20A825A600E07066 /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C52AC20A825A600E07066 /* firstViewController.swift */; };
+		187C52AF20A825C000E07066 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C52AE20A825C000E07066 /* secondViewController.swift */; };
+		187C52B220A85D5800E07066 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C52B120A85D5800E07066 /* test.swift */; };
+		188E0B6120BD9EDF0059D43D /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E0B6020BD9EDF0059D43D /* thirdViewController.swift */; };
+		188E0B6420BE2D770059D43D /* forthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E0B6320BE2D770059D43D /* forthViewController.swift */; };
+		188E0B6720BE2EEC0059D43D /* customizetableviewcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E0B6620BE2EEB0059D43D /* customizetableviewcell.swift */; };
+		188E0B6B20BE32670059D43D /* fifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E0B6A20BE32670059D43D /* fifthViewController.swift */; };
+		188E0B7420BE98A40059D43D /* line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E0B7320BE98A40059D43D /* line.swift */; };
+		188E0B7620BEA84E0059D43D /* sixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E0B7520BEA84E0059D43D /* sixthViewController.swift */; };
+		188E0B7820BF749A0059D43D /* drawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E0B7720BF749A0059D43D /* drawView.swift */; };
+		188E0B7A20BF84C30059D43D /* rippleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E0B7920BF84C30059D43D /* rippleAnimation.swift */; };
+		188E0B7D20BFB0E50059D43D /* rippleDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E0B7C20BFB0E50059D43D /* rippleDrawing.swift */; };
+		188E0B7F20BFB13E0059D43D /* rippleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E0B7E20BFB13E0059D43D /* rippleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		181396B82171D07B00C66479 /* ProgessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgessView.swift; sourceTree = "<group>"; };
+		181396BA2171D15000C66479 /* ProgessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgessViewController.swift; sourceTree = "<group>"; };
 		187C527B20A8252900E07066 /* animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		187C527E20A8252900E07066 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		187C528020A8252900E07066 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +64,19 @@
 		187C529A20A8252A00E07066 /* animationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187C529E20A8252A00E07066 /* animationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animationUITests.swift; sourceTree = "<group>"; };
 		187C52A020A8252A00E07066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187C52AC20A825A600E07066 /* firstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
+		187C52AE20A825C000E07066 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		187C52B120A85D5800E07066 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		188E0B6020BD9EDF0059D43D /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
+		188E0B6320BE2D770059D43D /* forthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forthViewController.swift; sourceTree = "<group>"; };
+		188E0B6620BE2EEB0059D43D /* customizetableviewcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customizetableviewcell.swift; sourceTree = "<group>"; };
+		188E0B6A20BE32670059D43D /* fifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fifthViewController.swift; sourceTree = "<group>"; };
+		188E0B7320BE98A40059D43D /* line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = line.swift; sourceTree = "<group>"; };
+		188E0B7520BEA84E0059D43D /* sixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sixthViewController.swift; sourceTree = "<group>"; };
+		188E0B7720BF749A0059D43D /* drawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawView.swift; sourceTree = "<group>"; };
+		188E0B7920BF84C30059D43D /* rippleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rippleAnimation.swift; sourceTree = "<group>"; };
+		188E0B7C20BFB0E50059D43D /* rippleDrawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rippleDrawing.swift; sourceTree = "<group>"; };
+		188E0B7E20BFB13E0059D43D /* rippleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rippleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +104,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		181396B72171CF7500C66479 /* progress */ = {
+			isa = PBXGroup;
+			children = (
+				181396B82171D07B00C66479 /* ProgessView.swift */,
+				181396BA2171D15000C66479 /* ProgessViewController.swift */,
+			);
+			path = progress;
+			sourceTree = "<group>";
+		};
 		187C527220A8252900E07066 = {
 			isa = PBXGroup;
 			children = (
@@ -98,11 +137,17 @@
 			isa = PBXGroup;
 			children = (
 				187C527E20A8252900E07066 /* AppDelegate.swift */,
-				187C528020A8252900E07066 /* ViewController.swift */,
+				188E0B6220BD9EF20059D43D /* slide */,
+				188E0B6920BE31D70059D43D /* link */,
+				188E0B6C20BE326D0059D43D /* limitedSlide */,
+				188E0B6D20BE38550059D43D /* transfer */,
+				188E0B7B20BF84D20059D43D /* ripple */,
+				181396B72171CF7500C66479 /* progress */,
 				187C528220A8252900E07066 /* Main.storyboard */,
 				187C528520A8252A00E07066 /* Assets.xcassets */,
 				187C528720A8252A00E07066 /* LaunchScreen.storyboard */,
 				187C528A20A8252A00E07066 /* Info.plist */,
+				187C52B120A85D5800E07066 /* test.swift */,
 			);
 			path = animation;
 			sourceTree = "<group>";
@@ -123,6 +168,54 @@
 				187C52A020A8252A00E07066 /* Info.plist */,
 			);
 			path = animationUITests;
+			sourceTree = "<group>";
+		};
+		188E0B6220BD9EF20059D43D /* slide */ = {
+			isa = PBXGroup;
+			children = (
+				187C528020A8252900E07066 /* ViewController.swift */,
+				187C52AC20A825A600E07066 /* firstViewController.swift */,
+				187C52AE20A825C000E07066 /* secondViewController.swift */,
+			);
+			path = slide;
+			sourceTree = "<group>";
+		};
+		188E0B6920BE31D70059D43D /* link */ = {
+			isa = PBXGroup;
+			children = (
+				188E0B6020BD9EDF0059D43D /* thirdViewController.swift */,
+				188E0B6320BE2D770059D43D /* forthViewController.swift */,
+				188E0B6620BE2EEB0059D43D /* customizetableviewcell.swift */,
+			);
+			path = link;
+			sourceTree = "<group>";
+		};
+		188E0B6C20BE326D0059D43D /* limitedSlide */ = {
+			isa = PBXGroup;
+			children = (
+				188E0B6A20BE32670059D43D /* fifthViewController.swift */,
+				188E0B7320BE98A40059D43D /* line.swift */,
+				188E0B7720BF749A0059D43D /* drawView.swift */,
+			);
+			path = limitedSlide;
+			sourceTree = "<group>";
+		};
+		188E0B6D20BE38550059D43D /* transfer */ = {
+			isa = PBXGroup;
+			children = (
+				188E0B7520BEA84E0059D43D /* sixthViewController.swift */,
+			);
+			path = transfer;
+			sourceTree = "<group>";
+		};
+		188E0B7B20BF84D20059D43D /* ripple */ = {
+			isa = PBXGroup;
+			children = (
+				188E0B7920BF84C30059D43D /* rippleAnimation.swift */,
+				188E0B7C20BFB0E50059D43D /* rippleDrawing.swift */,
+				188E0B7E20BFB13E0059D43D /* rippleView.swift */,
+			);
+			path = ripple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +349,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187C52B220A85D5800E07066 /* test.swift in Sources */,
+				187C52AF20A825C000E07066 /* secondViewController.swift in Sources */,
+				188E0B6120BD9EDF0059D43D /* thirdViewController.swift in Sources */,
+				188E0B6420BE2D770059D43D /* forthViewController.swift in Sources */,
+				181396BB2171D15000C66479 /* ProgessViewController.swift in Sources */,
 				187C528120A8252900E07066 /* ViewController.swift in Sources */,
+				188E0B7420BE98A40059D43D /* line.swift in Sources */,
+				188E0B7820BF749A0059D43D /* drawView.swift in Sources */,
+				188E0B7620BEA84E0059D43D /* sixthViewController.swift in Sources */,
+				188E0B7D20BFB0E50059D43D /* rippleDrawing.swift in Sources */,
+				188E0B7A20BF84C30059D43D /* rippleAnimation.swift in Sources */,
+				181396B92171D07B00C66479 /* ProgessView.swift in Sources */,
+				188E0B7F20BFB13E0059D43D /* rippleView.swift in Sources */,
+				188E0B6720BE2EEC0059D43D /* customizetableviewcell.swift in Sources */,
 				187C527F20A8252900E07066 /* AppDelegate.swift in Sources */,
+				187C52AD20A825A600E07066 /* firstViewController.swift in Sources */,
+				188E0B6B20BE32670059D43D /* fifthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +539,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JKU2234WX3;
 				INFOPLIST_FILE = animation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,7 +558,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JKU2234WX3;
 				INFOPLIST_FILE = animation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

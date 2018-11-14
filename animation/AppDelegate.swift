@@ -13,9 +13,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //let testView = thirdViewController()//两个scrollView联动
+        //let testView = forthViewController()//两个tableView联动
+        //let testView = lineViewController()//滑动 / 画线
+        //let testView = seventhViewController()//水波纹
+        let testView = ProgessViewController() //进度条
+        window?.rootViewController = testView
         return true
     }
 

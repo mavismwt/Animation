@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  secondViewController.swift
 //  animation
 //
 //  Created by Apple on 2018/5/13.
@@ -8,18 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+class secondViewController: UIViewController,UIScrollViewDelegate {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.view.backgroundColor = UIColor.black
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
 }
-
